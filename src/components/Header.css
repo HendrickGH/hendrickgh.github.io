@@ -1,0 +1,33 @@
+.header {
+	background-image: url(../assets/background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.header-container {
+	margin: 3.2rem 7.2rem 7.2rem 7.2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.header-logo {
+	display: block;
+}
+.logo {
+	filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(64deg)
+		brightness(97%) contrast(107%);
+}
+.user-title {
+	color: #fff;
+	font-size: 4.8rem;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.user-work {
+	color: #9b9b9b;
+	font-size: 2.4rem;
+	margin-top: 3.2rem;
+	letter-spacing: 0.75px;
+}
